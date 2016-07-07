@@ -1,0 +1,16 @@
+/* the human responsible */
+/* humanstxt.org */
+
+
+/* WHO DONE IT */
+Developer & Designer: Jeremiah Lant
+Site: http://jlant.github.io/
+Twitter: @jlant
+Location: Louisville, KY
+
+
+/* SITE */
+Last update: 2016/07/06
+Standards: HTML5, CSS3
+Components: Bootstrap
+Software: Atom, Sublime Text
