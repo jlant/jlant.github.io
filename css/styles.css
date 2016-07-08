@@ -1,11 +1,33 @@
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.navbar-nav  li a:hover {
+    color: #1abc9c !important;
+}
+
+.jumbotron {
+    background-image: url("../img/landscape.png");
+    background-size: cover;
+    height: 100%;
+    min-height: 300px;
+}
+
 footer {
     background: #cacbcc;
     color: #fff;
     font-size: 13px;
-    letter-spacing: .05em;
+    letter-spacing: 1px;
     margin-top: 80px;
-    padding-top: 20px;
+    padding: 25px;
+    /*padding-top: 20px;
     padding-right: 0px;
     padding-bottom: 60px;
-    padding-left: 0px;
+    padding-left: 0px;*/
 }
