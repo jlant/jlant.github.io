@@ -9,22 +9,15 @@
     background: none;
 }
 
-.navbar-nav  li a:hover {
-    color: #fff !important;
-}
-
 .jumbotron {
-    background: url("../img/background-00.png");
+    background-image: url("../img/background-00.png");
     background-size: cover;
     background-attachment: fixed;
     min-height: 700px;
 }
 
 footer {
-    /*background: #cacbcc;
-    color: #fff;*/
     font-size: 13px;
     letter-spacing: 1px;
     margin-top: 80px;
-    /*padding: 25px;*/
 }
