@@ -16,6 +16,14 @@
     min-height: 700px;
 }
 
+.me {
+    width: 90%;
+    height: 90%;
+    filter: grayscale(90%);
+    padding: 10px;
+}
+
+
 footer {
     font-size: 13px;
     letter-spacing: 1px;

@@ -14,8 +14,9 @@
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </head>
 
-<body>
+<body id="mypage">
 
+    <!-- Navigation bar -->
     <nav class="navbar navbar-default">
         <div class="container-fluid">
             <div class="navbar-header">
@@ -27,17 +28,18 @@
                 </button>
                 <a class="navbar-brand text-uppercase" href="#">Jeremiah Lant</a>
             </div>
-            <div class="collapse navbar-collapse" id="mynavbar">
+            <div class="collapse navbar-collapse text-uppercase" id="mynavbar">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="#about">About</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#">Blog</a></li>
+                    <li><a href="#blog">Blog</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
+    <!-- Jumbotron -->
     <div class="jumbotron text-center">
         <div class="container">
             <h1>Jeremiah Lant</h1>
@@ -45,11 +47,83 @@
         </div>
     </div>
 
+    <!-- About section -->
+    <div class="container-fluid" id="about">
+        <h3 class="text-center text-uppercase">About</h3>
+        <div class="row">
+            <div class="col-sm-4 text-center">
+                <img src="img/me.png" class="img-fluid img-circle me" alt="Jeremiah Lant">
+            </div>
+            <div class="col-sm-8">
+                <ol>
+                    <li>Born in Minneapolis, Minnesota.</li>
+                    <li>Lived with Grandma in Warren, Michigan.</li>
+                    <li>Moved with Mom to Northern Kentucky near Cincinnati, Ohio.</li>
+                    <li>Played little league football as a rugrat and emulated <a href="https://en.wikipedia.org/wiki/Barry_Sanders">Barry Sanders</a>.</li>
+                    <li>Faded the little white ball around the golf course on the high school golf team.</li>
+                    <li>Pondered the universe and studied physics at the University of Kentucky.</li>
+                    <li>Discoverd a strong passion for rock climbing at the Red River Gorge, Kentucky</li>
+                    <li>Met a girl in ancient philosophy class...</li>
+                    <li>Taught high school physics through Teach For America at Atlanta, Georgia.</li>
+                    <li>Fell in love with the girl from ancient philosophy class and followed her to Columbus, Ohio where she pursued a law degree.</li>
+                    <li>Modeled the hydrodynamics of flood waters in graduate school at The Ohio State University with some really smart and inspiring people.</li>
+                    <li>Became instantly hooked on programming with Python after one of those really smart and inspiring people showed me the light.</li>
+                    <li>Got a second job while in graduate school at the U.S. Geological Survey as if I did not have enough work to do already. :)</li>
+                    <li>Married the girl of my dreams from that ancient philosophy class.</li>
+                    <li>Moved to Louisville, Kentucky upon the strong requests from the parents-in-law.</li>
+                    <li>Got a dog named Lola.</li>
+                    <li>Welcomed the greatest thing, a daughter, into this world.</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio section -->
+    <div class="container-fluid text-center" id="portfolio">
+        <h3 class="text-uppercase">Some of my work</h3>
+        <div class="row">
+            <div class="col-xs-4">
+                <img src="http://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+                <p>Some short description...</p>
+            </div>
+            <div class="col-xs-4">
+                <img src="http://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+                <p>Some short description...</p>
+            </div>
+            <div class="col-xs-4">
+                <img src="http://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+                <p>Some short description...</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid text-center" id="portfolio">
+        <div class="row">
+            <div class="col-xs-4">
+                <img src="http://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+                <p>Some short description...</p>
+            </div>
+            <div class="col-xs-4">
+                <img src="http://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+                <p>Some short description...</p>
+            </div>
+            <div class="col-xs-4">
+                <img src="http://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+                <p>Some short description...</p>
+            </div>
+        </div>
+    </div>
+
     <br>
     <br>
+
+    <!-- Footer -->
     <footer class="footer container-fluid text-center">
+        <a class="up-arrow" href="#mypage" data-toggle="tooltip" title="TO TOP">
+          <span class="glyphicon glyphicon-chevron-up"></span>
+        </a><br><br>
         <p>Made with <span class="glyphicon glyphicon-heart"></span> in Louisville, KY</p>
-        <p>&copy; Jeremiah Lant 2016</p>
+        <p>Copyright &copy; 2016 Jeremiah Lant</p>
         <a href="http://jlant.github.io/humans.txt">
             <img src="http://humanstxt.org/img/oficial-logos/humanstxt-transparent-1ink.png" alt="Humans.txt" height="31" width="88">
         </a>
