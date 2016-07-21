@@ -1,9 +1,9 @@
 .navbar {
     padding-top: 15px;
     padding-bottom: 15px;
-    border: 0px;
-    border-radius: 0px;
-    margin-bottom: 0px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
     font-size: 16px;
     letter-spacing: 1px;
     background: none;
@@ -13,14 +13,14 @@
     background: url("../img/farm.jpg");
     background-size: cover;
     background-attachment: fixed;
-    min-height: 700px;
+    min-height: 750px;
 }
 
 .me {
-    width: 90%;
-    height: 90%;
+    width: 75%;
+    height: 75%;
     filter: grayscale(90%);
-    padding: 10px;
+    margin: 10px;
 }
 
 
