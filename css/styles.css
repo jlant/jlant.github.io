@@ -10,15 +10,19 @@
 }
 
 .jumbotron {
-    background: url("../img/farm.jpg");
-    background-size: cover;
+    background: url("../img/fontainebleu.jpg");
+    /*background-size: cover;*/
     background-attachment: fixed;
-    min-height: 750px;
+    min-height: 800px;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
 }
 
 .me {
-    width: 75%;
-    height: 75%;
+    width: 60%;
+    height: 60%;
     filter: grayscale(90%);
     margin: 10px;
 }
