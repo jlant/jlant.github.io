@@ -10,14 +10,11 @@
 }
 
 .jumbotron {
-    background-image: url("../img/fontainebleu.jpg");
-    /*background-size: cover;*/
+    background: #282828 url("../img/fontainebleu.jpg") no-repeat center center;
+    background-size: cover;
+    height: 1000px;
+    color: #ffffff;
     background-attachment: fixed;
-    min-height: 800px;
-    -webkit-background-size: 100% 100%;
-    -moz-background-size: 100% 100%;
-    -o-background-size: 100% 100%;
-    background-size: 100% 100%;
 }
 
 .me {
